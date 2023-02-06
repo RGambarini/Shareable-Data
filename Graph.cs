@@ -36,7 +36,7 @@ public class Graph : MonoBehaviour {
         //attached to the current object, with their position relative to the 
         //parent set to false.
 
-        float step = 2f / (resolution;
+        float step = 2f / resolution;
         var position = Vector3.zero;
         var scale = Vector3.one * step;
         points = new Transform[resolution];
